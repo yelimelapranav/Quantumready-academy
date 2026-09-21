@@ -1,0 +1,41 @@
+name: CI
+
+on:
+  pull_request:
+    branches: [main]
+  push:
+    branches: [main]
+
+jobs:
+  web:
+    name: web (lint + build)
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: apps/web
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+          cache: "npm"
+          cache-dependency-path: apps/web/package-lock.json
+      - run: npm install
+      - run: npm run lint
+      # TODO(Pranav): `npm run build` needs real (or dummy) env vars to succeed once
+      # pages start reading Supabase/Stripe env at build time — add a step here with
+      # placeholder values, or move those reads behind runtime-only code paths.
+
+  pipeline:
+    name: pipeline (lint)
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - run: pip install -r pipeline/requirements.txt
+      - run: pip install ruff
+      - run: ruff check pipeline/
+      # TODO(Pallavi): add pytest once there are unit tests worth running in CI
+      # (e.g. manifest validation, quiz-shape checks) — no network-dependent tests here.

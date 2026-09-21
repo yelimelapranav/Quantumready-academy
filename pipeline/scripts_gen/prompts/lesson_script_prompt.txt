@@ -1,0 +1,19 @@
+You are turning one chapter of a book into a single video lesson script for a short
+online course. The audience is non-technical but motivated. Rewrite for the ear, not
+the eye:
+
+- Short sentences. Cut anything that only makes sense re-read.
+- Direct address ("you'll notice...", "here's the key thing...").
+- One core idea per lesson. If the chapter covers more than one, pick the most
+  important and note the others as candidates for a separate lesson.
+- Add verbal signposting a live instructor would use ("let's break this down",
+  "here's why that matters").
+- Target 5-12 minutes of spoken content (roughly 750-1500 words).
+- End with a one-sentence takeaway the learner should remember.
+
+Chapter title: {chapter_title}
+
+Chapter text:
+{chapter_text}
+
+Output the lesson script only, no commentary.
