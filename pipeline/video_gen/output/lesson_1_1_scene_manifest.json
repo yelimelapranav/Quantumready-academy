@@ -1,0 +1,81 @@
+﻿{
+  "lesson_id": "1.1",
+  "lesson_title": "Why quantum is an architect's problem",
+  "target_duration": "6-8 minutes",
+  "visual_pipeline": "Wan 2.1 T2V clips + diagrams + narration + captions",
+  "scenes": [
+    {
+      "scene": 1,
+      "time": "0:00-0:45",
+      "section": "Hook",
+      "visual_type": "t2v",
+      "duration_seconds": 10,
+      "status": "generated",
+      "output": "pipeline/video_gen/output/lesson_1_1_wan_scene_01.mp4",
+      "description": "Professional enterprise architect in a corporate strategy room reviewing a technology architecture diagram connecting classical enterprise infrastructure to a conceptual quantum cloud service."
+    },
+    {
+      "scene": 2,
+      "time": "0:45-1:15",
+      "section": "Big idea",
+      "visual_type": "diagram",
+      "duration_seconds": 30,
+      "status": "planned",
+      "description": "Simple visual showing quantum computing as a business and technology architecture decision involving security, platforms, skills and partners."
+    },
+    {
+      "scene": 3,
+      "time": "1:15-2:15",
+      "section": "Explain",
+      "visual_type": "diagram",
+      "duration_seconds": 60,
+      "status": "planned",
+      "description": "Enterprise architecture visual showing security as one force bringing quantum onto the architect's agenda."
+    },
+    {
+      "scene": 4,
+      "time": "2:15-3:15",
+      "section": "Explain",
+      "visual_type": "t2v",
+      "duration_seconds": 10,
+      "status": "planned",
+      "description": "Enterprise technology team reviewing cloud-connected quantum computing capabilities and considering ecosystem momentum."
+    },
+    {
+      "scene": 5,
+      "time": "3:15-4:30",
+      "section": "Explain",
+      "visual_type": "diagram",
+      "duration_seconds": 75,
+      "status": "planned",
+      "description": "Logistics route-optimization example showing a difficult business problem that could potentially be evaluated for quantum computing."
+    },
+    {
+      "scene": 6,
+      "time": "4:30-5:30",
+      "section": "Architect's view",
+      "visual_type": "diagram",
+      "duration_seconds": 60,
+      "status": "planned",
+      "description": "Enterprise landing-zone architecture showing where a conceptual quantum service could connect to existing systems."
+    },
+    {
+      "scene": 7,
+      "time": "5:30-6:30",
+      "section": "Architect's view",
+      "visual_type": "t2v",
+      "duration_seconds": 10,
+      "status": "planned",
+      "description": "Architect and technology team discussing how quantum technology could fit into existing enterprise systems."
+    },
+    {
+      "scene": 8,
+      "time": "6:30-7:30",
+      "section": "Takeaways + prompt",
+      "visual_type": "diagram_and_text",
+      "duration_seconds": 60,
+      "status": "planned",
+      "description": "Three takeaway points followed by a reflection prompt asking where quantum might matter in the learner's organisation."
+    }
+  ]
+}

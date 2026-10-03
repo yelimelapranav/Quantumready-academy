@@ -1,0 +1,57 @@
+﻿{
+  "lesson_id": "1.1",
+  "lesson_title": "Why quantum is an architect's problem",
+  "source": "Quantum Ready Academy — Course Blueprint",
+  "target_duration": "6-8 minutes",
+  "sections": [
+    {
+      "section": "Hook",
+      "time": "0:00-0:45",
+      "visual": "Email from the CEO: Saw this article on quantum. What's our plan?",
+      "narration": "Imagine this lands in your inbox on a Monday morning. Your CEO has read that quantum computers will break encryption and transform drug discovery. She wants to know what your company should do. Who gets asked to answer? More often than not, it's the architect."
+    },
+    {
+      "section": "Big idea",
+      "time": "0:45-1:15",
+      "visual": "One sentence on screen.",
+      "narration": "Quantum computing isn't just a physics topic any more. It's a set of business and technology decisions, about security, platforms, skills and partners, and those decisions land on architects first."
+    },
+    {
+      "section": "Explain",
+      "time": "1:15-4:30",
+      "visual": "Three arrows pointing at a building labelled Your enterprise.",
+      "narration": [
+        "Three forces are pushing quantum onto your agenda.",
+        "The first is security. Much of the encryption protecting your data today, like RSA and elliptic-curve cryptography, could be broken by a large enough quantum computer. That machine doesn't exist yet. But attackers can copy encrypted data now and decrypt it later. So if your data must stay secret for ten years, the clock is already running.",
+        "The second is ecosystem momentum. IBM, Google, Microsoft and Amazon already let you run programs on real quantum hardware through the cloud. Governments and universities are investing heavily. Your vendors and competitors are experimenting.",
+        "The third is hard business problems. Some problems grow so fast that even the biggest classical computers struggle: finding the best routes across thousands of deliveries, simulating how molecules behave, or balancing a large investment portfolio. These are exactly the kinds of problems quantum computers are being designed to attack.",
+        "Think back to when cloud arrived. Organisations that sketched a landing zone early, with some guardrails, a small team and a few pilots, moved faster and more safely than those who waited until teams were already using it without rules. Quantum is at that same early moment."
+      ],
+      "secondary_visual": "A cloud icon, then a landing zone diagram."
+    },
+    {
+      "section": "Architect's view",
+      "time": "4:30-6:30",
+      "visual": "Four boxes filling in one at a time.",
+      "narration": [
+        "So what does this mean for you? Four questions will reach your desk.",
+        "Where could it matter? Which business capabilities involve optimisation, simulation or complex pattern-finding?",
+        "How would it plug in? Quantum will be reached through cloud services and connected to your existing systems, not installed in your data centre.",
+        "What must we protect now? Which systems and data rely on encryption that quantum could break?",
+        "Who do we need? Which skills to build, and which partners to borrow from?",
+        "Here's an example. A logistics company picks route optimisation as a candidate use case. The security team starts an inventory of where encryption is used. The architect sets up a small sandbox on a cloud quantum service and a simple way to compare results with today's tools. No big production bets, just learning at low cost and low risk."
+      ]
+    },
+    {
+      "section": "Takeaways + prompt",
+      "time": "6:30-7:30",
+      "visual": "Three bullets.",
+      "narration": [
+        "Quantum is becoming an architecture and strategy question, not just a science one.",
+        "Security, ecosystem momentum and hard business problems are the three forces behind it.",
+        "Early, low-cost preparation beats a late scramble.",
+        "Before the next lesson, think about one business area in your organisation where a better answer to a hard optimisation or simulation problem would be worth real money. Write it down; we'll use it in the workbook."
+      ]
+    }
+  ]
+}
